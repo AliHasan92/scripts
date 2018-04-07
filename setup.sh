@@ -4,7 +4,4 @@
 # https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt
 
 cd 
-sudo apt-get install git-core
-git clone https://github.com/akhilnarang/scripts
-cd scripts
-bash setup/ubuntu1604linuxmint18.sh
+sudo apt-get install git-core && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/ubuntu1604linuxmint18.sh
