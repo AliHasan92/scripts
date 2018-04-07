@@ -8,3 +8,5 @@ sudo apt-get install git-core
 git clone https://github.com/akhilnarang/scripts
 cd scripts
 bash setup/ubuntu1604linuxmint18.sh
+echo Completed
+#End
