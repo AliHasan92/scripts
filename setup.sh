@@ -8,5 +8,17 @@ sudo apt-get install git-core
 git clone https://github.com/akhilnarang/scripts
 cd scripts
 bash setup/ubuntu1604linuxmint18.sh
+
+# Set-up gdrive
+
+cd 
+wget https://docs.google.com/uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA&export=download
+mv uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA gdrive
+chmod +x gdrive
+sudo install gdrive /usr/local/bin/gdrive
+echo Visit link and copy access code, paste and continue
+gdrive list
+
 echo Completed
+
 #End
