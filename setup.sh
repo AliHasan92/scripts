@@ -14,6 +14,7 @@ echo 'export USE_CCACHE=1' >>~/.bashrc
 source ~/.bashrc
 
 #Set git identity
+git init
 git config --global user.email "admin@ialihasan.com"
 git config --global user.name "Ali Hasan"
 
