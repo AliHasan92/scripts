@@ -9,6 +9,10 @@ git clone https://github.com/akhilnarang/scripts
 cd scripts
 bash setup/ubuntu1604linuxmint18.sh
 
+#Set-up ccache
+echo 'export USE_CCACHE=1' >>~/.bashrc
+source ~/.bashrc
+
 # Set-up gdrive
 
 cd 
