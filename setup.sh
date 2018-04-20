@@ -13,16 +13,4 @@ bash setup/ubuntu1604linuxmint18.sh
 echo 'export USE_CCACHE=1' >>~/.bashrc
 source ~/.bashrc
 
-# Set-up gdrive
-
-cd 
-wget https://docs.google.com/uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA&export=download
-mv uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA gdrive
-chmod +x gdrive
-sudo install gdrive /usr/local/bin/gdrive
-echo Visit link and copy access code, paste and continue
-gdrive list
-
-echo Completed
-
 #End
