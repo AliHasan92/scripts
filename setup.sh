@@ -1,5 +1,5 @@
 # This scripts can be used set up build environment for ROM building
-# for Ubuntu 16.04 and up
+# for Ubuntu 16.04 and above
 # Using scripts from
 # https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt
 # Thanks to nathanchance for his scripts, I just made it auto for my ease.
