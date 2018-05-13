@@ -6,9 +6,14 @@ git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953 -b treble ker
 
 # Clone Vendor 
 echo Cloning Vendor
-# will add later
+git clone https://github.com/AliHasan96/proprietary_vendor_xiaomi -b oreo-mr1 vendor/xiaomi
 
 # Clone Common Device Tree
 echo Cloning Common Device Tree
 git clone https://github.com/AliHasan96/device_xiaomi_msm8953-common -b oreo-mr1 device/xiaomi/msm8953-common
 
+# Clone mido device tree
+echo Cloning device tree
+git clone https://github.com/AliHasan96/device_xiaomi_mido -b oreo-mr1 device/xiaomi/mido
+
+# End
