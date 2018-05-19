@@ -20,4 +20,7 @@ git clone https://github.com/AliHasan96/device_xiaomi_msm8953-common -b oreo-mr1
 echo Cloning device tree
 git clone https://github.com/AliHasan96/device_xiaomi_mido -b oreo-mr1 device/xiaomi/mido
 
+# Set CCACHE
+ccache -M 50G
+
 # End
