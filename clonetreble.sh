@@ -1,5 +1,9 @@
 # This script will clone treble DT, Vendor and Kernel for mido.
 
+# Remove existing
+echo Removing existing stuff.
+rm -rf device/xiaomi kernel/xiaomi vendor/xiaomi
+
 # Clone Kernel
 echo Cloning Kernel
 git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953 -b treble kernel/xiaomi/msm8953
