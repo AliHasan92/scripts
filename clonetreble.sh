@@ -20,6 +20,10 @@ git clone https://github.com/AliHasan96/device_xiaomi_msm8953-common -b oreo-mr1
 echo Cloning device tree
 git clone https://github.com/AliHasan96/device_xiaomi_mido -b oreo-mr1 device/xiaomi/mido
 
+# Clone clang
+# Some ROMs don't have it so I will be cloning from AOSiP.
+rm -rf prebuilts/clang/host/linux-x86
+git clone https://github.com/AOSiP/platform_prebuilts_clang_host_linux-x86 -b oreo-mr1 prebuilts/clang/host/linux-x86
 # Set CCACHE
 ccache -M 50G
 
