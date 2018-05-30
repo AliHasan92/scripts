@@ -6,7 +6,7 @@ rm -rf device/xiaomi kernel/xiaomi vendor/xiaomi
 
 # Clone Kernel
 echo Cloning Kernel
-git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953 -b treble kernel/xiaomi/msm8953
+git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953 -b oreo-mr1 kernel/xiaomi/msm8953
 
 # Clone Vendor 
 echo Cloning Vendor
