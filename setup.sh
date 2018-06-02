@@ -4,9 +4,6 @@
 # https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt
 # Thanks to nathanchance for his scripts, I just made it auto for my ease.
 
-# Gdrive
-wget https://docs.google.com/uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA&export=download && mv uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA gdrive && chmod +x gdrive && sudo install gdrive /usr/local/bin/gdrive
-
 cd ~
 sudo apt-get install git-core
 git clone https://github.com/akhilnarang/scripts
