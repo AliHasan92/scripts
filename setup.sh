@@ -1,5 +1,5 @@
-# This scripts can be used set up build environment for ROM building
-# for Ubuntu 16.04 and above
+# This scripts can be used to set up build environment for ROM building
+
 # Using scripts from 
 # https://github.com/akhilnarang/scripts
 # Thanks to Akhil Narang for his scripts, I just made it one run.
@@ -8,7 +8,7 @@ cd ~
 sudo apt-get install git-core
 git clone https://github.com/akhilnarang/scripts
 cd scripts
-bash setup/ubuntu1604linuxmint18.sh
+bash setup/android_build_env.sh
 
 # End setting up build environment
 
